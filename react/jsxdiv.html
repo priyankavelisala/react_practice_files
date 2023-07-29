@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        let divref= <div>
+            <h2> h2 element in div</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png" alt="react" width="300px" height="200px" />
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In at magnam omnis dolorem quas expedita voluptatum officia amet consectetur veniam earum reprehenderit nesciunt, obcaecati voluptate laboriosam tempore vero quo nemo.
+      </p>
+            </div>
+
+        ReactDOM.render(divref,document.getElementById("root"))
+    </script>
+</body>
+</html>

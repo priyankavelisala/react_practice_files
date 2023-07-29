@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="r2"></div>
+    <script>
+        var divref=React.createElement('div',null,[
+       React.createElement('h2',
+       {style:{
+        color:"white",
+        backgroundColor:"black",
+        padding:"30px"}},
+        "h2 element in react"),
+       React.createElement(
+        "p",
+        null,
+        "p element in react"),
+        ]);
+
+        ReactDOM.render(divref,document.getElementById("r2"))
+    </script>
+</body>
+</html>
